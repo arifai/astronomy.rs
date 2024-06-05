@@ -30,7 +30,7 @@ impl PasetoService {
     }
 }
 
-pub trait AccessToken: Send {
+pub trait AccessToken {
     /// Generate access token.
     fn generate(&self, end_user_claims: EndUserClaims) -> String;
 
