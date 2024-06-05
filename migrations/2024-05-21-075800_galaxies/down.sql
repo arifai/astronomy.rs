@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS planets;
+DROP TABLE IF EXISTS galaxies;
+DROP TABLE IF EXISTS constellations;
